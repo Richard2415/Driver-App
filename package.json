@@ -1,0 +1,29 @@
+{
+  "name": "truck-driver-app",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "description": "App for truck drivers to keep record of hours, trucks, and store all information on the phone",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Richard2415/Driver-App"
+  },
+  "keywords": [
+    "Truck",
+    "Driver",
+    "Truck Driver",
+    "Driver Runsheet",
+    "Runsheet",
+    "LogBook"
+  ],
+  "author": "Richard",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "scripts": {
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build",
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\""
+  }
+}
