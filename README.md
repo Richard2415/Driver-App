@@ -6,7 +6,7 @@ This APP is a MERN stack single-page application with use of React for the front
 
 ## Live URL
 
-https://truckdriverapp.herokuapp.com
+https://driver-mern-app.herokuapp.com/
 
 ### _Demo_
 
